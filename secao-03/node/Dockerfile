@@ -9,6 +9,6 @@ RUN yarn
 COPY app.js .
 COPY Dockerfile .
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD [ "node","app.js" ]
