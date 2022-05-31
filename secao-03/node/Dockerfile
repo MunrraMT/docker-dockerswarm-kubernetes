@@ -8,7 +8,6 @@ RUN yarn
 
 COPY app.js .
 COPY Dockerfile .
-COPY .gitignore .
 
 EXPOSE 3000
 
